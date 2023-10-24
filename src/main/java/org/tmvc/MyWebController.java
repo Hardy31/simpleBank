@@ -10,4 +10,19 @@ public class MyWebController {
         return  "index";
     }
 
+    @RequestMapping("/regis")
+    public String registration(){
+        return "registration";
+    }
+
+    @RequestMapping("login")
+    public String identification(){
+        return "login";
+    }
+
+    @RequestMapping("/worker")
+    public String working(){
+        return "worker";
+    }
+
 }

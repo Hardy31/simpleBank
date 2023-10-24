@@ -12,20 +12,24 @@
 </head>
 <body>
 <header>
-    <
-    <h2 align="center">Я шапка сайта. Могу повторяться на других страницах.</h2>
 
+    <a href="http://localhost:8080/tmvc/"> Вернуться на стартовую страницу</a>
+    <br><br>
 </header>
 <main>
+    <h2>Для входа в систему введите Ваши данные для авторизации</h2>
+
+    <br> <br>
     <form action="data" method="post">
-        <input type="text"  name="identifier" placeholder="write your check "/>
-        <input type="password"  name="password" placeholder="write your password"/>
+        <input type="text"  name="identifier" placeholder="write your check "/><br>
+        <input type="password"  name="password" placeholder="write your password"/><br>
 
         <input type="submit">
     </form>
 </main>
 <footer>
-    <h2 align="center">Я подвал сайта, тоже как и шапка могу повторяться на других страницах.</h2>
+    <br><br><br><br><br>
+    <h2 align="center">footer</h2>
 
 </footer>
 
