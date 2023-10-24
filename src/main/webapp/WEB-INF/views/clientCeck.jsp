@@ -11,6 +11,20 @@
     <title>Title</title>
 </head>
 <body>
+Клиент: ${cl_first_name}  ${cl_last_name}
 
+<main>
+    <table>
+        <tr>
+            <td>Номер счета </td> <td>Сумма</td>
+        </tr>
+        <tr>
+            <td>${sheck}</td> <td>${summs}</td>
+        </tr>
+        <tr>
+            <td>${sheck}</td> <td>${summs}</td>
+        </tr>
+    </table>
+</main>
 </body>
 </html>

@@ -20,7 +20,7 @@
     <h2>Для входв в систему введите  Ваши данные</h2>
 
     <br>
-    <form action="data" method="post">
+    <form action="employeeData" method="post">
         <input type="text"  name="manager_id" placeholder="write your code "/> <br>
         <input type="password"  name="passWorker" placeholder="write your password"/> <br>
 
