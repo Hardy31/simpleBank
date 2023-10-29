@@ -8,9 +8,26 @@
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html>
 <head>
+    <link rel="stylesheet" href="css/main.css">
     <title>Index</title>
 </head>
 <body>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 <header>
     <a href="login"> Для работы со своим счетом нажмите здесь</a>
     <br>
