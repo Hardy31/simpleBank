@@ -1,4 +1,4 @@
-package org.tmvc;
+package org.tmvc.controller;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
@@ -32,7 +32,7 @@ public class MyWebController {
         model.addAttribute("check_number", count++);
         model.addAttribute("pass", pass);
 
-        return "clientData";
+        return "client/clientData";
     }
 
 
@@ -69,7 +69,7 @@ public class MyWebController {
         model.addAttribute("cl_last_name", last_name);
         model.addAttribute("sheck", sheck);
         model.addAttribute("summs", summs);
-        return "clientCeck";
+        return "client/clientCeck";
     }
 
     @RequestMapping("/worker")

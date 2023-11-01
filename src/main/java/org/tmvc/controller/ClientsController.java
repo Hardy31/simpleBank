@@ -1,4 +1,4 @@
-package org.tmvc;
+package org.tmvc.controller;
 
 public class ClientsController {
 }

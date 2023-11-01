@@ -1,8 +1,9 @@
-package org.tmvc.entity;
+package org.tmvc.classFoChecking;
 
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.cfg.Configuration;
+import org.tmvc.entity.Manager;
 import org.tmvc.entity.enums.ManagerStatus;
 import java.time.LocalDate;
 
