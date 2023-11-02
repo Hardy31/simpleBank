@@ -13,38 +13,19 @@
 </head>
 <body>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 <header>
     <a href="login"> Для работы со своим счетом нажмите здесь</a>
     <br>
     <a href="regis"> Если Вы желаете открыть счет в нашем банке нажмите здесь</a>
     <br>
     <a href="worker"> Для работников банка</a>
-    <br>  <br>
-
+    <br> <br>  <br><br> <br>  <br>
+    <a href="managers"> MANAGERS (Manager Controller URI /managers)</a>
+    <br> <br>  <br>
+    <a href="api/managers"> MANAGERS (REST Manager Controller URI /api/managers)</a>
+    <br> <br>  <br>
 </header>
-<main>
-    <h2 align="center">Index page oure site</h2>
-</main>
-<footer>
-    <br><br><br><br><br>
-    <h2 align="center">footer</h2>
 
-</footer>
 
 
 </body>
