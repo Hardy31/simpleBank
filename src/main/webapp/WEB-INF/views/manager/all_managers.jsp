@@ -1,4 +1,5 @@
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core" %>
+
 <%--
   Created by IntelliJ IDEA.
   User: alex
@@ -31,11 +32,15 @@
             <td>${man.status}</td>
             <td>${man.createdAt}</td>
             <td>${man.updatedAt}</td>
+            <td><input type="button" value="Update" onclick="window.location.href = 'updateManager'"></td>
         </tr>
 
     </c:forEach>
 
 </table>
+ <br>
+ <input type="button" value="Add"
+  onclick="window.location.href = 'addNewManager'"/>
 
 </body>
 </html>
